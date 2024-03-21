@@ -14,7 +14,6 @@ def encode(password):
     print('Your password has been encoded and stored!')
     return res
 
-
 def decode(password):
     decoded_password = ""  # We'll store the decoded password here
 
@@ -27,7 +26,7 @@ def decode(password):
 
     return decoded_password
 
-
+#  Jenny added decode
 def main():
     password = ''
     choice = -1
